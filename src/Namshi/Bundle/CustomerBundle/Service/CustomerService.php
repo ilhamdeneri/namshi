@@ -17,7 +17,7 @@ class CustomerService
      */
     public $model;
 
-    protected $em;
+    public $em;
 
     /**
      * @param EntityManager $em
