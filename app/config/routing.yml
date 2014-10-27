@@ -1,0 +1,8 @@
+namshi_phone:
+    resource: "@NamshiPhoneBundle/Resources/config/routing.yml"
+    prefix:   /phone
+
+namshi_customer:
+    resource: "@NamshiCustomerBundle/Resources/config/routing.yml"
+    prefix:   /customer
+

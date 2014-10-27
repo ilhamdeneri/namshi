@@ -1,0 +1,9 @@
+parameters:
+    namshi.phone.service.phone.class: Namshi\Bundle\PhoneBundle\Service\PhoneService
+
+services:
+    namshi.phone.service.phone:
+        class: %namshi.phone.service.phone.class%
+        arguments:
+          - '@doctrine.orm.entity_manager'
+          - 'NamshiPhoneBundle:Phone'

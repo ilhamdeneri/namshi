@@ -1,0 +1,3 @@
+namshi_customer_list:
+    path:     /{customer}
+    defaults: { _controller: NamshiCustomerBundle:Default:index }

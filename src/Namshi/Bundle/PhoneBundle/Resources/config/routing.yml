@@ -1,0 +1,11 @@
+namshi_phone_list:
+    path:     /{customer}
+    defaults: { _controller: NamshiPhoneBundle:Default:list }
+
+namshi_phone_activate:
+    path:     /activate/{phoneId}
+    defaults: { _controller: NamshiPhoneBundle:Default:activate }
+
+namshi_phone_list_all:
+    path:     /
+    defaults: { _controller: NamshiPhoneBundle:Default:index }

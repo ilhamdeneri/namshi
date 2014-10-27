@@ -1,0 +1,9 @@
+parameters:
+    namshi.customer.service.customer.class: Namshi\Bundle\CustomerBundle\Service\CustomerService
+
+services:
+    namshi.customer.service.customer:
+        class: %namshi.customer.service.customer.class%
+        arguments:
+          - '@doctrine.orm.entity_manager'
+          - 'NamshiCustomerBundle:Customer'
